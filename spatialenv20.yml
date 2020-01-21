@@ -1,4 +1,4 @@
-name: spatialenv_yml
+name: spatialenv20
 channels:
   - defaults
   - conda-forge
