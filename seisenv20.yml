@@ -1,4 +1,4 @@
-name: seisenv_yml
+name: seisenv20
 channels:
   - defaults
   - conda-forge
