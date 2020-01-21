@@ -1,0 +1,49 @@
+name: imgenv_yml
+channels:
+  - defaults
+  - conda-forge
+
+dependencies:
+  # Core scientific python libraries
+  - python=3*
+  - numpy
+  - matplotlib
+  - scipy
+  - scikit-learn
+  - pandas
+  - statsmodels
+  - sympy
+  - pip
+
+  - spyder
+  - jupyter
+  - ipython
+  - ipykernel
+  - nb_conda_kernels
+
+  - seaborn
+  - h5py
+  - netcdf4
+  - xarray
+  - plotly
+
+  - opencv
+
+
+  # image processing libraries
+  - openpiv
+  - imageio
+  - scikit-image
+  - pillow
+  - mahotas
+  - pip:
+    - imutils
+
+
+  # spatial libraries
+#  - rasterstats
+#  - geopy
+#  - cartopy
+#  - geopandas
+
+
