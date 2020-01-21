@@ -1,4 +1,4 @@
-name: imgenv_yml
+name: imgenv20
 channels:
   - defaults
   - conda-forge
