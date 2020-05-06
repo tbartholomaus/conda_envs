@@ -20,6 +20,9 @@ dependencies:
   - ipython
   - ipykernel
   - nb_conda_kernels
+  - jupyterlab
+  - ipympl
+
 
   - seaborn
   - h5py
