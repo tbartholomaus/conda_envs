@@ -1,4 +1,4 @@
-name: seisenv20
+name: seisenv20b
 channels:
   - defaults
   - conda-forge
