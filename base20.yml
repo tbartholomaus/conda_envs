@@ -1,4 +1,4 @@
-name: base20
+name: base20b
 channels:
   - defaults
   - conda-forge
@@ -22,7 +22,7 @@ dependencies:
   - nb_conda_kernels
   - jupyterlab
   - ipympl
-
+  - nodejs
 
   - seaborn
   - h5py
