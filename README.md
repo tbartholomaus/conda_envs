@@ -10,6 +10,7 @@ By building each environment from scratch, through these environment.yml files, 
 In order for Jupyter Lab to work correctly, after using conda to set up the environments, you'll have to run the following line from the bash/terminal prompt:
 ```bash
 jupyter labextension install @jupyter-widgets/jupyterlab-manager jupyter-matplotlib
+jupyter lab build
 ```
 Within Jupyter Lab, to have interactive plotting, include the following line near the top of your python notebook file:
 ```python
