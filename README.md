@@ -5,3 +5,15 @@ These are the environment files used to create specialized conda environments fo
 These environments are available to all users on the lab server, `kennicott`, and are also on Tim's personal computer.  Anyone can download these environments to their personal computers as well, to create identical environments for computing while not connected to `kennicott`.
 
 By building each environment from scratch, through these environment.yml files, environments appear easier to maintain up-to-date and conflict free than if new modules are added incrementally with occasional `conda install` commands. Read more about managing conda environments [here, at the conda website](https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html#creating-an-environment-from-an-environment-yml-file), to create new environments on your local computer from these `.yml` files.  On a PC computer running Windows, management of these environments happens through the "Anaconda prompt."
+
+### Working with Jupyter Lab
+In order for Jupyter Lab to work correctly, after using conda to set up the environments, you'll have to run the following line from the bash/terminal prompt:
+```bash
+jupyter labextension install @jupyter-widgets/jupyterlab-manager jupyter-matplotlib
+jupyter lab build
+```
+Within Jupyter Lab, to have interactive plotting, include the following line near the top of your python notebook file:
+```python
+%matplotlib widget
+```
+This is an example of a Jupyter "magic", and controls iPython operation.  Other magics also control plotting, or work within the operating system.
