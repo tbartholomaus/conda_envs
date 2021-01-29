@@ -1,4 +1,4 @@
-name: seisenv20b
+name: seisenv21a
 channels:
   - defaults
   - conda-forge
@@ -37,3 +37,4 @@ dependencies:
   # seismic processing libraries
   - obspy
   - basemap
+  - pyrocko

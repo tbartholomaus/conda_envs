@@ -1,4 +1,4 @@
-name: base20b
+name: spatialenv21a
 channels:
   - defaults
   - conda-forge
@@ -31,3 +31,19 @@ dependencies:
   - plotly
 
   - opencv
+
+
+  # spatial libraries
+  - rasterstats
+  - geopy
+  - cartopy
+  - geopandas
+  - basemap
+  - pyproj
+  - shapely
+  - gdal
+  - fiona
+  - rasterio
+  - richdem
+
+
