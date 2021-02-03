@@ -2,6 +2,7 @@ name: seisenv21a
 channels:
   - defaults
   - conda-forge
+  - pyrocko
 
 dependencies:
   # Core scientific python libraries
