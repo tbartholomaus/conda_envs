@@ -19,6 +19,7 @@ dependencies:
   - jupyter
   - ipython
   - ipykernel
+  - ipywidgets
   - nb_conda_kernels
   - jupyterlab
   - ipympl
