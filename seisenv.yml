@@ -1,7 +1,7 @@
 name: seisenv21a
 channels:
-  - defaults
   - conda-forge
+  - defaults
   - pyrocko
 
 dependencies:

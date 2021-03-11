@@ -1,7 +1,7 @@
 name: spatialenv21a
 channels:
-  - defaults
   - conda-forge
+  - defaults
 
 dependencies:
   # Core scientific python libraries
