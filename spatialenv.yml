@@ -45,6 +45,7 @@ dependencies:
   - gdal
   - fiona
   - rasterio
+  - gstools
   - richdem
 
 
