@@ -24,7 +24,10 @@ then press `a` to make the file editable, delete the line above, press `esc` to 
 jupyter labextension install @jupyter-widgets/jupyterlab-manager
 jupyter labextension install jupyter-matplotlib
 jupyter nbextension enable --py widgetsnbextension
+
+python -m ipykernel install --user --name NAME_OF_ENVIRO
 ```
+The purpose of the last line is to allow the specific environment you're setting up to appear as an optional environment within jupyter lab.  This command was identified [here](https://stackoverflow.com/questions/53004311/how-to-add-conda-environment-to-jupyter-lab) and [here](https://medium.com/@jeremy.from.earth/multiple-python-kernels-for-jupyter-lab-with-conda-c67e50de3aa3).
 
 #### Launching and working with Jupyter lab
 After Jupyter Lab is all set up, Jupyter Lab can be launched by typing `jupyter lab` into bash, Anaconda Prompt, or terminal.
