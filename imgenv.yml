@@ -1,4 +1,4 @@
-name: imgenv21a
+name: imgenv21b
 channels:
   - conda-forge
   - defaults
