@@ -1,0 +1,13 @@
+prefix=/Users/timb/Documents/syncs/OneDrive - University of Idaho/RESEARCHs/git_repos/conda_envs/env
+exec_prefix=/Users/timb/Documents/syncs/OneDrive - University of Idaho/RESEARCHs/git_repos/conda_envs/env
+libdir=/Users/timb/Documents/syncs/OneDrive - University of Idaho/RESEARCHs/git_repos/conda_envs/env/lib
+includedir=/Users/timb/Documents/syncs/OneDrive - University of Idaho/RESEARCHs/git_repos/conda_envs/env/include
+ccompiler=/opt/concourse/worker/volumes/live/a8e407e3-d4ec-44ee-693f-1c4d86eb0106/volume/libnetcdf_1539979321820/_build_env/bin/x86_64-apple-darwin13.4.0-clang
+
+Name: netCDF
+Description: NetCDF Client Library for C
+URL: http://www.unidata.ucar.edu/netcdf
+Version: 4.6.1
+Libs: -L${libdir} -lnetcdf -lmfhdf -ldf -lhdf5_hl -lhdf5 -lpthread -lz -ldl -lm -lcurl
+Cflags: -I${includedir}
+

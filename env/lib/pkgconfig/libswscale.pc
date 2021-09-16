@@ -1,0 +1,14 @@
+prefix=/Users/timb/Documents/syncs/OneDrive - University of Idaho/RESEARCHs/git_repos/conda_envs/env
+exec_prefix=${prefix}
+libdir=/Users/timb/Documents/syncs/OneDrive - University of Idaho/RESEARCHs/git_repos/conda_envs/env/lib
+includedir=/Users/timb/Documents/syncs/OneDrive - University of Idaho/RESEARCHs/git_repos/conda_envs/env/include
+
+Name: libswscale
+Description: FFmpeg image rescaling library
+Version: 5.1.100
+Requires: 
+Requires.private: libavutil >= 56.14.100
+Conflicts:
+Libs: -L${libdir}  -lswscale 
+Libs.private: -lm
+Cflags: -I${includedir}

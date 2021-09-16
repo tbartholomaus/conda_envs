@@ -1,0 +1,36 @@
+{
+  "build": "py37h6fd60c2_1",
+  "build_number": 1,
+  "channel": "https://repo.anaconda.com/pkgs/main/osx-64",
+  "constrains": [],
+  "depends": [
+    "hdf5 >=1.10.2,<1.10.3.0a0",
+    "py-opencv 3.4.2 py37h7c891bd_1",
+    "python >=3.7,<3.8.0a0"
+  ],
+  "extracted_package_dir": "/Users/timb/anaconda3/pkgs/opencv-3.4.2-py37h6fd60c2_1",
+  "features": "",
+  "files": [],
+  "fn": "opencv-3.4.2-py37h6fd60c2_1.tar.bz2",
+  "license": "BSD 3-clause",
+  "license_family": "BSD",
+  "link": {
+    "source": "/Users/timb/anaconda3/pkgs/opencv-3.4.2-py37h6fd60c2_1",
+    "type": 1
+  },
+  "md5": "db67dd323cfd649759d110de6a0f4607",
+  "name": "opencv",
+  "package_tarball_full_path": "/Users/timb/anaconda3/pkgs/opencv-3.4.2-py37h6fd60c2_1.tar.bz2",
+  "paths_data": {
+    "paths": [],
+    "paths_version": 1
+  },
+  "requested_spec": "opencv",
+  "sha256": "b102bda8f9966c0e3103382a07cbaaebe874d63564c3abefc31304b857c8cab8",
+  "size": 10808,
+  "subdir": "osx-64",
+  "timestamp": 1535562401991,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/osx-64/opencv-3.4.2-py37h6fd60c2_1.tar.bz2",
+  "version": "3.4.2"
+}

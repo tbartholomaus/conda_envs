@@ -1,0 +1,9 @@
+libdir=/Users/timb/Documents/syncs/OneDrive - University of Idaho/RESEARCHs/git_repos/conda_envs/env/lib
+includedir=/Users/timb/Documents/syncs/OneDrive - University of Idaho/RESEARCHs/git_repos/conda_envs/env/include
+
+Name: JasPer
+Description: Image Processing/Coding Tool Kit with JPEG-2000 Support
+Version: 2.0.14
+
+Libs: -L${libdir} -ljasper
+Cflags: -I${includedir}/jasper

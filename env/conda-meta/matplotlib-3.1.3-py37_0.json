@@ -1,0 +1,35 @@
+{
+  "build": "py37_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/osx-64",
+  "constrains": [],
+  "depends": [
+    "matplotlib-base 3.1.3 py37h9aa3819_0",
+    "python >=3.7,<3.8.0a0"
+  ],
+  "extracted_package_dir": "/Users/timb/anaconda3/pkgs/matplotlib-3.1.3-py37_0",
+  "features": "",
+  "files": [],
+  "fn": "matplotlib-3.1.3-py37_0.tar.bz2",
+  "license": "PSF-based",
+  "license_family": "PSF",
+  "link": {
+    "source": "/Users/timb/anaconda3/pkgs/matplotlib-3.1.3-py37_0",
+    "type": 1
+  },
+  "md5": "2570f7fc9f3982296bde3c3eca16258b",
+  "name": "matplotlib",
+  "package_tarball_full_path": "/Users/timb/anaconda3/pkgs/matplotlib-3.1.3-py37_0.tar.bz2",
+  "paths_data": {
+    "paths": [],
+    "paths_version": 1
+  },
+  "requested_spec": "matplotlib",
+  "sha256": "ab866d0985e2abcb6e62875b699ec32c70960f35591e92db151eafb1a1485ce2",
+  "size": 20869,
+  "subdir": "osx-64",
+  "timestamp": 1580848112621,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/osx-64/matplotlib-3.1.3-py37_0.tar.bz2",
+  "version": "3.1.3"
+}

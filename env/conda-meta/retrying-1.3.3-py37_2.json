@@ -1,0 +1,93 @@
+{
+  "build": "py37_2",
+  "build_number": 2,
+  "channel": "https://repo.anaconda.com/pkgs/main/osx-64",
+  "constrains": [],
+  "depends": [
+    "python >=3.7,<3.8.0a0",
+    "six >=1.7.0"
+  ],
+  "extracted_package_dir": "/Users/timb/anaconda3/pkgs/retrying-1.3.3-py37_2",
+  "features": "",
+  "files": [
+    "lib/python3.7/site-packages/__pycache__/retrying.cpython-37.pyc",
+    "lib/python3.7/site-packages/retrying-1.3.3.dist-info/INSTALLER",
+    "lib/python3.7/site-packages/retrying-1.3.3.dist-info/METADATA",
+    "lib/python3.7/site-packages/retrying-1.3.3.dist-info/RECORD",
+    "lib/python3.7/site-packages/retrying-1.3.3.dist-info/WHEEL",
+    "lib/python3.7/site-packages/retrying-1.3.3.dist-info/top_level.txt",
+    "lib/python3.7/site-packages/retrying.py"
+  ],
+  "fn": "retrying-1.3.3-py37_2.tar.bz2",
+  "license": "Apache 2.0",
+  "license_family": "Apache",
+  "link": {
+    "source": "/Users/timb/anaconda3/pkgs/retrying-1.3.3-py37_2",
+    "type": 1
+  },
+  "md5": "c72bb4092bd7692d22e999e0dcc331aa",
+  "name": "retrying",
+  "package_tarball_full_path": "/Users/timb/anaconda3/pkgs/retrying-1.3.3-py37_2.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/python3.7/site-packages/__pycache__/retrying.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "7f9631d9e560182801ae3999cfc4d773a6d63af0e472735ddca1f50e58d5e551",
+        "sha256_in_prefix": "7f9631d9e560182801ae3999cfc4d773a6d63af0e472735ddca1f50e58d5e551",
+        "size_in_bytes": 8008
+      },
+      {
+        "_path": "lib/python3.7/site-packages/retrying-1.3.3.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "ceebae7b8927a3227e5303cf5e0f1f7b34bb542ad7250ac03fbcde36ec2f1508",
+        "sha256_in_prefix": "ceebae7b8927a3227e5303cf5e0f1f7b34bb542ad7250ac03fbcde36ec2f1508",
+        "size_in_bytes": 4
+      },
+      {
+        "_path": "lib/python3.7/site-packages/retrying-1.3.3.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "645a61b9a59799f364bd886ffd3772a7d4cdff1a9f98106c0f4b802efb24a557",
+        "sha256_in_prefix": "645a61b9a59799f364bd886ffd3772a7d4cdff1a9f98106c0f4b802efb24a557",
+        "size_in_bytes": 7124
+      },
+      {
+        "_path": "lib/python3.7/site-packages/retrying-1.3.3.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "8587606a768ef206e37e0c1dbdae2851c1435f93c800e8e528dce96913665f45",
+        "sha256_in_prefix": "8587606a768ef206e37e0c1dbdae2851c1435f93c800e8e528dce96913665f45",
+        "size_in_bytes": 502
+      },
+      {
+        "_path": "lib/python3.7/site-packages/retrying-1.3.3.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "4f449398be0e232118af5c35cc87d9ea38328e5d5beb30f01291aa316438257a",
+        "sha256_in_prefix": "4f449398be0e232118af5c35cc87d9ea38328e5d5beb30f01291aa316438257a",
+        "size_in_bytes": 93
+      },
+      {
+        "_path": "lib/python3.7/site-packages/retrying-1.3.3.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "02aff4b5431cc46c6b4117b86878be5554a8d8c3f36552ed4f4a40c4d2d4b3f1",
+        "sha256_in_prefix": "02aff4b5431cc46c6b4117b86878be5554a8d8c3f36552ed4f4a40c4d2d4b3f1",
+        "size_in_bytes": 9
+      },
+      {
+        "_path": "lib/python3.7/site-packages/retrying.py",
+        "path_type": "hardlink",
+        "sha256": "5661f2ca12c09e3ec4abd6e495b28a0e68c6315093e9fbbb119b0000ce2bcd75",
+        "sha256_in_prefix": "5661f2ca12c09e3ec4abd6e495b28a0e68c6315093e9fbbb119b0000ce2bcd75",
+        "size_in_bytes": 9955
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "c5e30c0fab925ea1a35a05064f1600b8dc41fd893eb45eaa9cb3cf75d5cf3370",
+  "size": 15467,
+  "subdir": "osx-64",
+  "timestamp": 1532535923361,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/osx-64/retrying-1.3.3-py37_2.tar.bz2",
+  "version": "1.3.3"
+}

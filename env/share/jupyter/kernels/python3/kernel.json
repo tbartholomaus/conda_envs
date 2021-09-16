@@ -1,0 +1,11 @@
+{
+ "argv": [
+  "/Users/timb/Documents/syncs/OneDrive - University of Idaho/RESEARCHs/git_repos/conda_envs/env/bin/python",
+  "-m",
+  "ipykernel_launcher",
+  "-f",
+  "{connection_file}"
+ ],
+ "display_name": "Python 3",
+ "language": "python"
+}

@@ -1,0 +1,38 @@
+# NetCDF C Configuration Summary
+==============================
+
+# General
+-------
+NetCDF Version:		4.6.1
+Configured On:		Fri Oct 19 15:10:15 CDT 2018
+Host System:		x86_64-Darwin-14.5.0
+Build Directory: 	/opt/concourse/worker/volumes/live/a8e407e3-d4ec-44ee-693f-1c4d86eb0106/volume/libnetcdf_1539979321820/work
+Install Prefix:         /Users/timb/Documents/syncs/OneDrive - University of Idaho/RESEARCHs/git_repos/conda_envs/env
+
+# Compiling Options
+-----------------
+C Compiler:		/opt/concourse/worker/volumes/live/a8e407e3-d4ec-44ee-693f-1c4d86eb0106/volume/libnetcdf_1539979321820/_build_env/bin/x86_64-apple-darwin13.4.0-clang
+CFLAGS:			-march=core2 -mtune=haswell -mssse3 -ftree-vectorize -fPIC -fPIE -fstack-protector-strong -O2 -pipe -I/Users/timb/Documents/syncs/OneDrive - University of Idaho/RESEARCHs/git_repos/conda_envs/env/include -fdebug-prefix-map=${SRC_DIR}=/usr/local/src/conda/${PKG_NAME}-${PKG_VERSION} -fdebug-prefix-map=${PREFIX}=/usr/local/src/conda-prefix -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -march=core2
+CPPFLAGS:		 
+LDFLAGS:		-Wl,-pie -Wl,-headerpad_max_install_names  -Wl,-rpath,/Users/timb/Documents/syncs/OneDrive - University of Idaho/RESEARCHs/git_repos/conda_envs/env/lib -L/Users/timb/Documents/syncs/OneDrive - University of Idaho/RESEARCHs/git_repos/conda_envs/env/lib 
+AM_CFLAGS:		
+AM_CPPFLAGS:		
+AM_LDFLAGS:		
+Shared Library:		yes
+Static Library:		no
+Extra libraries:	-lmfhdf -ldf -lhdf5_hl -lhdf5 -lpthread -lz -ldl -lm -lcurl
+
+# Features
+--------
+NetCDF-2 API:		yes
+HDF4 Support:		yes
+NetCDF-4 API:		yes
+NC-4 Parallel Support:	no
+PNetCDF Support:	no
+DAP2 Support:		yes
+DAP4 Support:		yes
+Diskless Support:	yes
+MMap Support:		no
+JNA Support:		no
+CDF5 Support:		yes
+ERANGE fill Support:	no
