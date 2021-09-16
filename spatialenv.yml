@@ -1,4 +1,4 @@
-name: spatialenv21a
+name: spatialenv21b
 channels:
   - conda-forge
   - defaults
@@ -14,8 +14,7 @@ dependencies:
   - statsmodels
   - sympy
   - pip
-  - osmnx
-
+ 
   - spyder
   - jupyter
   - ipython
@@ -48,5 +47,4 @@ dependencies:
   - rasterio
   - gstools
   - richdem
-
-
+  - osmnx
