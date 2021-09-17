@@ -1,3 +1,4 @@
 env/
+env_tmp/
 cache/
 .ipynb_checkpoints
