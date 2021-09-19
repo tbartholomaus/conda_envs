@@ -17,6 +17,7 @@ dependencies:
 
   - spyder
   - jupyter
+  - jupyterlab
   - ipython
   - ipykernel
   - ipywidgets
