@@ -41,3 +41,4 @@ dependencies:
   - obspy
   - basemap
   - pyrocko
+  - eqcorrscan
