@@ -50,4 +50,3 @@ dependencies:
   - richdem
   - osmnx
   - laspy
-  - whitebox_tools
