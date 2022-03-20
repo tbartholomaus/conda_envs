@@ -50,3 +50,4 @@ dependencies:
   - richdem
   - osmnx
   - laspy
+  - eofs
