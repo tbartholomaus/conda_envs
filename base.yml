@@ -2,6 +2,7 @@ name: base22b
 channels:
   - conda-forge
   - defaults
+  - spyder-ide
 
 dependencies:
   # Core scientific python libraries
@@ -15,7 +16,8 @@ dependencies:
   - sympy
   - pip
 
-  - spyder
+  - spyder=4*
+  - spyder-notebook
   - jupyter
   - jupyterlab
   - ipython
