@@ -1,4 +1,4 @@
-name: seisenv22a
+name: seisenv22b
 channels:
   - conda-forge
   - defaults
@@ -6,7 +6,7 @@ channels:
 
 dependencies:
   # Core scientific python libraries
-  - python=3*
+  - python
   - numpy
   - matplotlib
   - scipy
