@@ -1,11 +1,11 @@
-name: spatialenv22a
+name: spatialenv22b
 channels:
   - conda-forge
   - defaults
 
 dependencies:
   # Core scientific python libraries
-  - python=3*
+  - python
   - numpy
   - matplotlib
   - scipy
