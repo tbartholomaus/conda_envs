@@ -35,6 +35,8 @@ dependencies:
   - plotly
 
   - opencv
+  - tslearn
+  - tensorflow
 
 
   # seismic processing libraries
