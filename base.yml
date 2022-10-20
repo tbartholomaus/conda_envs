@@ -16,7 +16,7 @@ dependencies:
   - sympy
   - pip
 
-  - spyder=4*
+  - spyder
   - spyder-notebook
   - jupyter
   - jupyterlab
