@@ -1,4 +1,4 @@
-name: imgenv22b
+name: imgenv23a
 channels:
   - conda-forge
   - defaults
@@ -25,6 +25,7 @@ dependencies:
   - jupyterlab
   - ipympl
   - nodejs
+  - tqdm
 
   - seaborn
   - h5py
