@@ -1,4 +1,4 @@
-name: seisenv22b
+name: seisenv23a
 channels:
   - conda-forge
   - defaults
@@ -26,7 +26,7 @@ dependencies:
   - jupyterlab
   - ipympl
   - nodejs
-
+  - tqdm
 
   - seaborn
   - h5py
