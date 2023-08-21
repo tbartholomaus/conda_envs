@@ -1,4 +1,4 @@
-name: seisenv23a
+name: seisenv23b
 channels:
   - conda-forge
   - defaults
