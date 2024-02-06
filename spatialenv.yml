@@ -1,4 +1,4 @@
-name: spatialenv23b
+name: spatialenv24a
 channels:
   - conda-forge
   - defaults
