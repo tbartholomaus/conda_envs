@@ -1,4 +1,4 @@
-name: base24b
+name: base25b
 channels:
   - conda-forge
   - defaults
